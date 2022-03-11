@@ -1,5 +1,6 @@
 # Ticketmaster-Take-Home-Challenge
 
+<<<<<<< HEAD
 
 
 At Ticketmaster we have a specific scenario where an event might currently have no tickets available, but more might appear in the future (for example, if a promotor releases more tickets for us to sell).
@@ -13,6 +14,8 @@ The waiting list form is accessed from a "join the waiting list" button which re
 The design of the form is attached and there are a number of features required, as follows:
 
 
+=======
+>>>>>>> 2b53f03b6a9528c57081a40f99e52255c8e43dc5
  ## user stories
   
 - A fan can be notified via email or SMS, so the form should allow submission of email address and/or mobile phone number
