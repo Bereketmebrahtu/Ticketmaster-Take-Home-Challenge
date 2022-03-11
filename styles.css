@@ -2,35 +2,80 @@
     box-sizing: border-box;
 }
 
-.join-waitinglist-container {
+.main-container {
     display: flex;
     position: relative;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 80vw;
+    width: 50vw;
     height: 70vh;
     background-color: white;
     border: 1px solid grey;
-    margin: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
- button {
-     align-items: center;
-     justify-self: center;
-     margin:2em ;
-     width: 60vw;
-     padding: 1.0em;
-     font-weight: normal;
-     font-size: medium;
+
+.waitingList-container {
+    align-items: center;
+    justify-self: center;
+    margin:2em ;
+    padding: 1.0em;
+    font-weight: normal;
+    font-size: medium;
+    border: 1px solid lightgray;
+    box-shadow: 10px 5px 5px lightgray;
+    border-radius:3px;
+
+ }
+ h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
  }
 
+ .joinList {
+     display: flex;
+     justify-content: center;
+     align-self: center;
+   
 
-.view-other-dates {
+ }
+
+ .joinList-button {
+     width: 40vw;
+     padding: 1.0em;
+     background-color: blue;
+     color: white;
+     border-radius: 3px;
+ }
+
+ .viewOtherDates-container {
+    align-items: center;
+    justify-self: center;
+    margin:2em ;
+    padding: 1.0em;
+    font-weight: normal;
+    font-size: medium;
+    border: 1px solid lightgray;
+    box-shadow: 10px 5px 5px lightgray;
+    border-radius:3px;
+
+ }
+
+ .viewOtherDates {
     display: flex;
-    background-color: gray;
-    border: 1px solid grey;
-    margin-top: 2em;
-    width: 60vw;
-    height: 50vh;
+    justify-content: center;
+    border-radius: 3px;
+    
+
+
+ }
+
+.viewOtherDates-button {
+    width: 40vw;
+    padding: 1.0em;
+    color: blue;
+    border-radius: 3px;
 
 }
