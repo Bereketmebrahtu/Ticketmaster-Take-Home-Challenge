@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+.join-waitinglist-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 2rem;
+}
+ button {
+     align-items: center;
+     justify-self: center;
+     margin:2em ;
+     width: 60vw;
+     padding: 1.0em;
+     font-weight: normal;
+     font-size: medium;
+ }
+
+
+.view-other-dates {
+    display: flex;
+    background-color: gray;
+    border: 1px solid grey;
+    margin-top: 2em;
+    width: 60vw;
+    height: 50vh;
+
+}
