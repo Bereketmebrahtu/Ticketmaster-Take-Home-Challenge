@@ -1,0 +1,85 @@
+*:root {
+--bg-color1: white;
+--bg-color2: blue;
+}
+
+*{
+box-sizing: border-box;
+}
+
+.contact-container {
+display: flex;
+position: relative;
+justify-content: center;
+flex-direction: column;
+width: 50vw;
+height: 70vh;
+background-color: var(--bg-color1);
+border: 1px solid grey;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.mobile-container {
+align-items: center;
+justify-self: center;
+margin:2em ;
+padding: 1.0em;
+font-weight: normal;
+font-size: medium;
+border: 1px solid lightgray;
+box-shadow: 10px 5px 5px lightgray;
+border-radius:3px;
+
+}
+
+h1 {
+display: flex;
+justify-content: center;
+align-self: center;
+}
+
+.joinList {
+display: flex;
+justify-content: center;
+align-self: center;
+
+}
+
+.joinList-button {
+width: 40vw;
+padding: 1.0em;
+background-color: var(--bg-color2);
+color: white;
+border-radius: 3px;
+}
+
+.viewOtherDates-container {
+align-items: center;
+justify-self: center;
+margin:2em ;
+padding: 1.0em;
+font-weight: normal;
+font-size: medium;
+border: 1px solid lightgray;
+box-shadow: 10px 5px 5px lightgray;
+border-radius:3px;
+
+}
+
+.viewOtherDates {
+display: flex;
+justify-content: center;
+border-radius: 3px;
+
+
+}
+
+.viewOtherDates-button {
+width: 40vw;
+padding: 1.0em;
+color: blue;
+border-radius: 3px;
+
+}
