@@ -14,8 +14,8 @@ position: relative;
 justify-content: center;
 flex-direction: column;
 flex-wrap: wrap;
-width: 80vw;
-height: 70vh;
+width: 50vw;
+height: conte;
 background-color: var(--bg-color1);
 border: 1px solid grey;
 margin-left: auto;
@@ -27,8 +27,8 @@ margin-right: auto;
 display: flex;
 flex-wrap:wrap;
 flex-direction:column;
-margin:2em ;
-padding: 1.0em;
+margin:5em ;
+padding: 2.0em;
 font-weight: normal;
 font-size: medium;
 border: 1px solid lightgray;
@@ -61,8 +61,16 @@ position: relative;
 justify-content: center;
 align-self:center;
 width: 50vw;
+margin-top: 20px;
 padding: 1.0em;
 background-color: var(--bg-color2);
 color: white;
 border-radius: 3px;
+}
+
+@media (min-width: 280px) {
+    .contact-container{
+        width: fit-content;
+        height: fit-content;
+    }
 }

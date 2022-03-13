@@ -1,5 +1,5 @@
 :root {
---bg-color1: #0000ff;
+--bg-color1: white;
 --bg-color2: #808080;
 }
 
@@ -13,9 +13,11 @@
     justify-content: center;
     flex-direction: column;
     width: 50vw;
-    height: 70vh;
+    height: 90vh;
     background-color: var(--bg-color1);
-    border: 1px solid grey;
+    border: 1px solid white;
+    box-shadow: 5px 5px 5px grey;
+
     margin-left: auto;
     margin-right: auto;
     
@@ -32,22 +34,22 @@
     box-shadow: 10px 5px 5px lightgray;
     border-radius:3px;
 
- }
- h1 {
+}
+h1 {
     display: flex;
     justify-content: center;
     align-self: center;
- }
+}
 
- .joinList {
-     display: flex;
-     justify-content: center;
-     align-self: center;
-   
+.joinList {
+display: flex;
+justify-content: center;
+align-self: center;
 
- }
 
- .joinList-button {
+}
+
+ .list-button {
      width: 40vw;
      padding: 1.0em;
      background-color: blue;
@@ -83,4 +85,11 @@
     color: blue;
     border-radius: 3px;
 
+}
+
+@media (min-width: 280px) {
+    .main-container {
+        width: fit-content;
+        height: fit-content;
+    }
 }
