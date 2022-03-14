@@ -90,6 +90,8 @@ align-self: center;
 @media (min-width: 280px) {
     .main-container {
         width: fit-content;
-        height: fit-content;
+        height: 100vh;
     }
+
+    .waitingList-container {}
 }

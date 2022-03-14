@@ -14,25 +14,31 @@
 
 <body>
     <section class="contact-container">
-        <h1>How should we contact you!</h1>
-
-        <section class="mobile-container">
         
+<h1>Join the List</h1>
+        <section class="mobile-container">
+            <h2>How should we contact you!</h2>
             <div class="contact">
-                <form class="userForm" action="http://127.0.0.1:3000/how-to-contact-you/Contact.html?number=&email=" Get="POST">
-                    <input type="checkbox" name="number" id="number">
-                    <label for="number">Mobile Number</label>
-                    <br>
-                    <br>
-                    <span>Please Include Country Code</></span>
-                    <br>
-                    <br>
-                    <input type="text" name="number" id="number">
-                    <br>
-                    <input type="checkbox" name="email" id="email">
-                    <label for="email">Email</label>
+
+                 <form action="results.html" method="GET">
+                <div class="form-group-phone">
+                    <input type="radio" name="contact" id="phone" required>
+                    <label for="tel">Mobile Number</label>
+                    <input type="tel" type="email" name="phone" id="phone" required>
+
+                    <div class="span"><span>Please Include Country Code</></span></div>
                     
-                    <label for="number"></label>
+                </div>
+ 
+                
+                
+
+                <div class="form-group-email">
+                        <input type="radio" name="contact" id="email" required>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Email</label>
+                </div>  
+                    
                     
                     <button type="submit" name="email">Confirm</label>   
                 </form>  
@@ -40,7 +46,7 @@
             
         </section>
 
-       
+
             <output type="text"></output>
 
     </section>

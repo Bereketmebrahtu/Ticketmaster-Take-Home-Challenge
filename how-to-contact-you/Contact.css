@@ -45,7 +45,18 @@ margin-left: 0px;
 padding: 1.2em;
 
 }
+.form-group-phone {
+    padding: 1.5rem; 
+   
+}
+.span{
+    margin-top:0.5rem;
+}
 
+.form-group-email {
+    padding: 1.5rem;
+   
+}
 h1 {
 display: flex;
 justify-content: center;
