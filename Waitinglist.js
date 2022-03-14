@@ -22,11 +22,11 @@
 // .catch((error) => console.error(error));
 // });
 
-const formEl = document.querySelector('form');
-const result = document.querySelector('url(results.html)');
-console.log('result')
+// const formEl = document.querySelector('form');
+// const result = document.querySelector('url(results.html)');
+// console.log('result')
 
-formEl.addEventListener('click', (e) => {
-    e.preventDefault();
-    document.body.style.display = 
-})
+// formEl.addEventListener('click', (e) => {
+//     e.preventDefault();
+//     document.body.style.display = 
+// })

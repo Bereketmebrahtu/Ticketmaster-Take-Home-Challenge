@@ -93,5 +93,8 @@ align-self: center;
         height: 100vh;
     }
 
-    .waitingList-container {}
+    .waitingList-container {
+        width: 80vw;
+        height: 80vh;
+    }
 }
