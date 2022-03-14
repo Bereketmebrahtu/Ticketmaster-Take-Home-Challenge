@@ -1,6 +1,13 @@
 *{
     box-sizing: border-box;
+    font-family: Manrope;
 }
+
+@font-face {
+    font-family: Manrope;
+    src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&amp;display=swap");
+}   
+
 
 .main-container {
     display: flex;
@@ -10,7 +17,6 @@
     width: 50vw;
     height: 70vh;
     background-color: white;
-    border: 1px solid grey;
     margin-left: auto;
     margin-right: auto;
     
@@ -28,10 +34,11 @@
     border-radius:3px;
 
  }
- h1 {
+span {
     display: flex;
     justify-content: center;
     align-self: center;
+    font-weight: bold;
  }
 
  .joinList {

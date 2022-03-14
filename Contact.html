@@ -15,32 +15,40 @@
 <body>
     <section class="contact-container">
         
-<h1>Join the List</h1>
+        <div class="span">Join the List</div>
+        <span class="contact-name">How should we contact you?</span>
         <section class="mobile-container">
-            <h2>How should we contact you!</h2>
+            
+            
             <div class="contact">
 
                  <form action="results.html" method="GET">
                 <div class="form-group-phone">
-                    <input type="radio" name="contact" id="phone" required>
+                    <input type="checkbox"contact" id="phone" required>
+                    <label for="radio" name="radio></label>
                     <label for="tel">Mobile Number</label>
                     <input type="tel" type="email" name="phone" id="phone" required>
 
-                    <div class="span"><span>Please Include Country Code</></span></div>
+                    <div class="text-span"><span>Please Include Country Code</></span></div>
                     
                 </div>
  
-                
-                
-
                 <div class="form-group-email">
-                        <input type="radio" name="contact" id="email" required>
-                        <input type="email" name="email" id="email" required>
-                        <label for="email">Email</label>
+                    
+                    <input type="checkbox" name="contact" id="email" >
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="email" id="email" required placeholder="name@example.org">
+                    
+                    
+                    
+        
+                       
+                        <button type="submit" name="email">Confirm</label>  
+                        
                 </div>  
                     
                     
-                    <button type="submit" name="email">Confirm</label>   
+                   
                 </form>  
             </div>
             
