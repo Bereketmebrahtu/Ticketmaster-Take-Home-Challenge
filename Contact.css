@@ -55,17 +55,6 @@ background-color: var(--bg-color1);
 margin-left: auto;
 margin-right: auto;
 
-
-}
-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1em;
-    width: 40px;
-
 }
 
 .mobile-container {
@@ -81,6 +70,18 @@ box-shadow: 10px 5px 5px lightgray;
 border-radius:5px;
 
 }
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    width: 40px;
+
+}
+
+
 
 .contact {
 display: flex;
