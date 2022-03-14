@@ -40,7 +40,7 @@
 - media query added for responsiveness when used in varying screen sizes.
 -
 
-## Stretch goal
+## Stretch goals
 
 - I intend to make the form fully functional using javascript.
 - Incorporate javascript promise and async methods.
