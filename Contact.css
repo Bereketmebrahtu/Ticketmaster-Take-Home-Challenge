@@ -112,7 +112,7 @@ label {
 .form-group-email input {
     border: 0;
 }
-}
+
 h1 {
 display: flex;
 justify-content: center;
@@ -140,5 +140,4 @@ border-radius: 3px;
         width: fit-content;
         height: fit-content;
     }
-    .wa
-} 
+}
