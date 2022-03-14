@@ -5,44 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="Contact.css"> -->
-   <script src=""></script>
+    <link rel="stylesheet" href="Contact.css">
+<script src="Contact.js" defer></script>
+    <script type="text/javascript" src="/Join-waitinglist /Waitinglist.js"  defer></script>
     <title>Contact</title>
 </head>
 
+
 <body>
     <section class="contact-container">
-
+        
+<h1>Join the List</h1>
         <section class="mobile-container">
-            <h1>How should we contact you!</h1>
-
-
+            <h2>How should we contact you!</h2>
             <div class="contact">
-                <form>
 
-                    <label for="number"><input type="text" name="number">Mobile Number</label>
-                    <input type="checkbox" name="mobile-Number" id="mobile">
-                
-            </div>
+                 <form action="results.html" method="GET">
+                <div class="form-group-phone">
+                    <input type="radio" name="contact" id="phone" required>
+                    <label for="tel">Mobile Number</label>
+                    <input type="tel" type="email" name="phone" id="phone" required>
 
-            <section class="email-container">
-                <div class="email">
+                    <div class="span"><span>Please Include Country Code</></span></div>
                     
-
-                        <label for="email"><input type="email" name="email">Email</label>
-                        <input type="checkbox" name="email" id="email">
-                </form>
                 </div>
-            </section>
+ 
+                
+                
 
-
+                <div class="form-group-email">
+                        <input type="radio" name="contact" id="email" required>
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Email</label>
+                </div>  
+                    
+                    
+                    <button type="submit" name="email">Confirm</label>   
+                </form>  
             </div>
-
+            
         </section>
 
 
-        </div>
-
+            <output type="text"></output>
 
     </section>
 </body>

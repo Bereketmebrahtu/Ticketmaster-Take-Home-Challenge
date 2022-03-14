@@ -1,6 +1,7 @@
 *:root {
 --bg-color1: white;
 --bg-color2: blue;
+
 }
 
 *{
@@ -12,8 +13,9 @@ display: flex;
 position: relative;
 justify-content: center;
 flex-direction: column;
+flex-wrap: wrap;
 width: 50vw;
-height: 70vh;
+height: conte;
 background-color: var(--bg-color1);
 border: 1px solid grey;
 margin-left: auto;
@@ -22,10 +24,11 @@ margin-right: auto;
 }
 
 .mobile-container {
-align-items: center;
-justify-self: center;
-margin:2em ;
-padding: 1.0em;
+display: flex;
+flex-wrap:wrap;
+flex-direction:column;
+margin:5em ;
+padding: 2.0em;
 font-weight: normal;
 font-size: medium;
 border: 1px solid lightgray;
@@ -34,52 +37,51 @@ border-radius:3px;
 
 }
 
+.contact {
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+margin-left: 0px;
+padding: 1.2em;
+
+}
+.form-group-phone {
+    padding: 1.5rem; 
+   
+}
+.span{
+    margin-top:0.5rem;
+}
+
+.form-group-email {
+    padding: 1.5rem;
+   
+}
 h1 {
 display: flex;
 justify-content: center;
 align-self: center;
 }
-
-.joinList {
-display: flex;
-justify-content: center;
-align-self: center;
-
+input {
+    padding: 0.5em;
 }
 
-.joinList-button {
-width: 40vw;
+button {
+display: flex;
+position: relative;
+justify-content: center;
+align-self:center;
+width: 50vw;
+margin-top: 20px;
 padding: 1.0em;
 background-color: var(--bg-color2);
 color: white;
 border-radius: 3px;
 }
 
-.viewOtherDates-container {
-align-items: center;
-justify-self: center;
-margin:2em ;
-padding: 1.0em;
-font-weight: normal;
-font-size: medium;
-border: 1px solid lightgray;
-box-shadow: 10px 5px 5px lightgray;
-border-radius:3px;
-
-}
-
-.viewOtherDates {
-display: flex;
-justify-content: center;
-border-radius: 3px;
-
-
-}
-
-.viewOtherDates-button {
-width: 40vw;
-padding: 1.0em;
-color: blue;
-border-radius: 3px;
-
+@media (min-width: 280px) {
+    .contact-container{
+        width: fit-content;
+        height: fit-content;
+    }
 }
