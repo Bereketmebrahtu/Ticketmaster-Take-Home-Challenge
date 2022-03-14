@@ -1,5 +1,7 @@
 # Ticketmaster-Take-Home-Challenge
 
+- The challenge set as part of the Founders and coders Ticketmaster Take home challenge apprenticeship application process. 
+
 
  ## user stories
   
@@ -27,6 +29,20 @@
 - Attempt to complete the selected user story. Do not attempt to complete the whole feature!
 - If you fancy it, we welcome any critique or alternative suggestions for the design if you feel like it could be improved
 
-## The Result
+## The User story chosen
+
+- I decided to work on the user story in which user would click on the join waiting list button and is taked to a page where the form is ready.
+
+## Design and styling 
+
+- For the design I went with a simple fully responsive page mimicing the actual Ticketmaster form.
+- Used the CSS box model to add the different div sections with class names added for styling. 
+- media query added for responsiveness when used in varying screen sizes.
+-
+
+## Stretch goal
+
+- I intend to make the form fully functional using javascript.
+- 
 
 
