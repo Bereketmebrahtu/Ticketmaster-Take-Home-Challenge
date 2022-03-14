@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Manrope;
+    src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&amp;display=swap");
+}   
+
 *:root {
 --bg-color1: white;
 --bg-color2: blue;
@@ -5,7 +10,36 @@
 }
 
 *{
-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Manrope;
+    }
+
+
+
+.span {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-bottom: 1px solid grey;
+    font-size: 25px;
+    
+   
+    
+
+}
+
+.contact-name {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 1em 0 1em 0;
+    
+
 }
 
 .contact-container {
@@ -14,12 +48,23 @@ position: relative;
 justify-content: center;
 flex-direction: column;
 flex-wrap: wrap;
-width: 50vw;
-height: conte;
+max-width: 300px;
+min-width: 50vw;
+height: 60vh;
 background-color: var(--bg-color1);
-border: 1px solid grey;
 margin-left: auto;
 margin-right: auto;
+
+
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    width: 40px;
 
 }
 
@@ -27,13 +72,13 @@ margin-right: auto;
 display: flex;
 flex-wrap:wrap;
 flex-direction:column;
-margin:5em ;
-padding: 2.0em;
+margin:2em ;
+padding: 1em;
 font-weight: normal;
 font-size: medium;
 border: 1px solid lightgray;
 box-shadow: 10px 5px 5px lightgray;
-border-radius:3px;
+border-radius:5px;
 
 }
 
@@ -42,20 +87,31 @@ display: flex;
 flex-direction: column;
 align-self: flex-start;
 margin-left: 0px;
-padding: 1.2em;
+padding-right: 1.2em;
 
 }
 .form-group-phone {
-    padding: 1.5rem; 
+ padding-top: 1rem;
    
 }
-.span{
+.text-span{
     margin-top:0.5rem;
+    border-bottom: 1px solid grey;
+    padding-bottom: 2em;
+    
+}
+label {
+    padding-top: 0.5rem;
 }
 
 .form-group-email {
-    padding: 1.5rem;
+    padding: 0.5rem;
    
+}
+
+.form-group-email input {
+    border: 0;
+}
 }
 h1 {
 display: flex;
