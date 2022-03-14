@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: Manrope;
     src: url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;500&amp;display=swap");
 }   
@@ -140,4 +140,5 @@ border-radius: 3px;
         width: fit-content;
         height: fit-content;
     }
-}
+    .wa
+} 
