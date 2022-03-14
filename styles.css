@@ -17,6 +17,8 @@ body {
     position: relative;
     justify-content: center;
     flex-direction: column;
+    margin-top: 20px;
+    height: 100vh;
     min-width: 150px;
     max-width: 500px;
     background-color: white;
@@ -93,9 +95,14 @@ span {
 
 }
 
-@media (min-width: 280px) {
+@media (min-width: 0px) {
     .main-container{
-        width: fit-content;
-        height: fit-content;
+        width: content;
+        height:content;
+    }
+
+    .waitingList-container {
+        width: content;
+        height:content;
     }
 }
