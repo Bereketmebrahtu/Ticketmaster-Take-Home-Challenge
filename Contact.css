@@ -26,8 +26,7 @@
     margin-left: 2rem;
     margin-right: 2rem;
     border-bottom: 1px solid grey;
-    font-weight: bold;
-    font-size:large;
+    font-size: 25px;
     
    
     
@@ -39,8 +38,7 @@
     justify-content:center;
     align-items:center;
     margin: 1em 0 1em 0;
-    font-size:large;
-    font-weight:bold;
+    
 
 }
 
@@ -57,6 +55,16 @@ background-color: var(--bg-color1);
 margin-left: auto;
 margin-right: auto;
 
+
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    width: 40px;
 
 }
 
