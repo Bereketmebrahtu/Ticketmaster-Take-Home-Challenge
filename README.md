@@ -38,7 +38,7 @@
 - For the design I went with a simple fully responsive page mimicing the actual Ticketmaster form.
 - Used the CSS box model to add the different div sections with class names added for styling. 
 - media query added for responsiveness when used in varying screen sizes.
--
+
 
 ## Stretch goals
 
