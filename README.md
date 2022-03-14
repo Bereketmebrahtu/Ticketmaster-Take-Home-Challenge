@@ -31,7 +31,7 @@
 
 ## The User story chosen
 
-- I decided to work on the user story in which user would click on the join waiting list button and is taked to a page where the form is ready.
+- I decided to work on the user story in which a user would click on the join waiting list button and is taken to a page where the form is ready.
 
 ## Design and styling 
 
@@ -43,6 +43,9 @@
 ## Stretch goal
 
 - I intend to make the form fully functional using javascript.
-- 
+- Incorporate javascript promise and async methods.
+- Add an API and fetch data and manupilate the DOM 
+- Accesibility features added 
+
 
 
