@@ -1,7 +1,6 @@
 # Ticketmaster-Take-Home-Challenge
 
 
-
 At Ticketmaster we have a specific scenario where an event might currently have no tickets available, but more might appear in the future (for example, if a promotor releases more tickets for us to sell).
 
 As such, we want to avoid the scenario where a fan visits an event details page, sees that there are no tickets and assumes that it's sold out or completely unavailable.
@@ -11,6 +10,7 @@ To facilitate this we have the ability to add fans to a waiting list, which will
 The waiting list form is accessed from a "join the waiting list" button which renders on an event details page if it currently has no tickets available.
 
 The design of the form is attached and there are a number of features required, as follows:
+
 
 
  ## user stories
